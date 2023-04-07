@@ -1,0 +1,67 @@
+
+
+*:hover:active{
+    background-color: rgb(222, 222, 222);
+}
+
+
+
+.green{
+    border-color: rgb(46, 179, 46) solid 2px;
+    background-color: greenyellow;
+    height: 24px;
+    width: 720px;
+
+}
+
+.red{
+    border-color: rgba(247, 68, 68, 0.993) solid 2px;
+    background-color: rgb(255, 0, 0);
+    height: 24px;
+    width: 720px;
+}
+
+.yellow{
+    border-color: rgb(255, 253, 120) solid 2px;
+    background-color: yellow;
+    height: 24px;
+    width: 720px;
+}
+
+h1{
+    padding-top: 60px;
+}
+
+h1:hover{
+    opacity: 50%;
+}
+
+h2{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.button{
+    height: 24px;
+    width: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.container > * {
+    box-sizing: border-box;
+}
